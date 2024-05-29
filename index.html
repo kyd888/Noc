@@ -3,26 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram User Analysis</title>
+    <title>Instagram Engaged Users</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Instagram User and Song Analysis</h1>
+        <h1>Find Engaged Users on Instagram</h1>
         <div class="form-group">
-            <label for="hashtag">Enter Hashtag:</label>
-            <input type="text" id="hashtag" placeholder="music">
+            <label for="username">Instagram Username:</label>
+            <input type="text" id="username" placeholder="Enter Instagram username">
         </div>
-        <div class="form-group">
-            <label for="song-url">Enter Song URL:</label>
-            <input type="text" id="song-url" placeholder="your song url">
-        </div>
-        <button id="analyze-btn">Analyze</button>
+        <button id="search-btn">Search</button>
         <div id="results">
-            <h2>Potential Users</h2>
+            <h2>Engaged Users</h2>
             <ul id="users-list"></ul>
-            <h2>Song Analysis</h2>
-            <pre id="song-analysis"></pre>
         </div>
     </div>
     <script src="script.js"></script>
